@@ -1,5 +1,5 @@
 class Animal {
-    constructor(id, nome, velocidadeMaximaKmH, patas, comprimentoM, pesoKg, expectativaDeVidaAnos) {
+    constructor({ id, nome, velocidadeMaximaKmH, patas, comprimentoM, pesoKg, expectativaDeVidaAnos }) {
         this.id = id
         this.nome = nome
         this.velocidadeMaximaKmH = velocidadeMaximaKmH
